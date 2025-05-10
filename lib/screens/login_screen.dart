@@ -35,7 +35,7 @@ class LoginScreen extends StatelessWidget {
                       Navigator.pushReplacementNamed(context, 'add_user'),
                   style: ButtonStyle(
                       overlayColor: WidgetStateProperty.all(
-                          const Color.fromARGB(255, 129, 11, 155)
+                          const Color.fromARGB(255, 7, 190, 37)
                               .withOpacity(0.1)),
                       shape: WidgetStateProperty.all(const StadiumBorder())),
                   child: const Text('No tienes una cuenta?, creala'),
@@ -98,7 +98,7 @@ class LoginForm extends StatelessWidget {
               borderRadius: BorderRadius.circular(8),
             ),
             disabledColor: Colors.grey,
-            color: const Color.fromARGB(255, 97, 11, 210),
+            color: const Color.fromARGB(255, 7, 151, 96),
             elevation: 0,
             onPressed: LoginForm.isLoading
                 ? null

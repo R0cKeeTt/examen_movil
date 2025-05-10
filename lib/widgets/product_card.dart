@@ -62,7 +62,7 @@ class ProductCard extends StatelessWidget {
                     const Text(
                       'Producto bloqueado',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 79, 37, 218),
+                          color: Color.fromARGB(255, 13, 117, 57),
                           fontSize: 13),
                     )
                 ],
